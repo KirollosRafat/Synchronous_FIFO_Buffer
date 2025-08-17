@@ -35,7 +35,7 @@ A **Synchronous FIFO** is a special type of FIFO where both **read** and **write
 ### 🔹 `Sync_FIFO_tb.sv`  
 - A SystemVerilog **testbench** for simulating the FIFO.  
 - Includes:  
-  - **Stimulus generation** for write/read sequences.  
+  - **Stimulus generation** for write/read sequences Using **CRT** (Constrained Random Testing).  
   - **Functional coverage** using **covergroups and constraints**, ensuring that all important scenarios (e.g., full, empty, corner cases) are tested.  
   - **Output checks** to validate FIFO correctness.  
 
